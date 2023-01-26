@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.wrapper{
+    height: 100vh;
+    overflow-y:scroll ;
+    overflow-x: hidden;
+    perspective: 10px;
+    /* The perspective() CSS function defines a transformation that sets the distance between the user and the z=0 plane */
+}
+
+.container{
+    height: 100%;
+    position: relative;   
+    /* position: relative -> kyu kiya kyuki aage vale child continer ko absolute kar sake aur image ko overlap kar sake */
+    display: flex ;
+    flex-direction: column;
+    justify-content: center;
+/* display-> flex kiya hai kyuki saari chize center peh kar paaye  */
+
+    align-items: center;
+    transform-style: preserve-3d;
+    /* peeche ke elements bhi dikhne chahiye */
+    z-index: -5;
+
+}
+.background{
+    transform: translateZ(-40px) scale(6);
+
+}
+
+.foreground{
+    transform: translateZ(-20px) scale(3);
+}
+
+.background, .foreground{
+position: absolute;
+height: 100%;
+width: 100%;
+z-index: -1;
+/* The z-index property specifies the stack order of an element.
+An element with greater stack order is always in front of an element with a lower stack order. */
+object-fit: cover;
+/* The object-fit property is used to specify how an <img> or <video> should be resized to fit its container. */
+}
+
+.container h1{
+    position: absolute;
+    color: rgb(127, 141, 150);
+    font-size: 130px;
+    text-shadow: 0 0 10px ;
+    top: 20%;
+   
+}
+
+section{
+    background-color: rgb(45, 45, 45);
+    padding: 80px 0;
+    color: white;
+}
+
+.secHeading{
+    font-size: 40px;
+    padding: 0 8%;
+}
+.text{
+    font-size: 23px;
+    padding: 15px 100px;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.desc{
+    position: absolute;
+    background-color: white;
+    padding: 8px;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%);
+    color: black;
+    font-size:1.5rem;
+}
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment:fixed ;
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+}
+.bg1{
+    background-image: url(./BIKING.jpeg);
+   
+}
+
+.bg2{
+    background-image: url(./PARA_GLIDING.jpeg);
+}
+
+.bg3{
+    background-image: url(./SURFING.jpeg);
+}
