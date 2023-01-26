@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+#wrapper{
+    height:100vh;
+    overflow-x:hidden;
+    overflow-y:auto;
+  }
+
+.boxx{
+/* border: 1px solid  black; */
+
+}
+
+.heading{
+    text-align: center;
+    margin: 50px;
+    font-size: larger;
+    /* border: 1px solid  black; */
+}
+.image-container{
+    margin: 50px;
+    padding: 0 50px;
+    /* border: 1px solid  black; */
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr);
+    gap: 20px;
+}
+
+.box{
+    background-color: brown;
+    border-radius: 8px;
+    /* border: 1px solid  black; */
+    height: 380px;
+    filter: grayscale(100%);
+  box-shadow: 0 0 20px #333;
+  object-fit: cover;
+}
+
+.box p{
+    position: absolute;
+    bottom: 20px;
+    margin: 10px;
+    color: white;
+    opacity: 0;
+   
+
+}
+.box:hover p{
+    opacity: 1;
+
+
+}
+.box:hover{
+    filter: drop-shadow(0 0 10px #333);
+    -webkit-filter: grayscale(0);
+    transform: scale(1.08);
+    transition: 0.5s;
+    
+   
+    
+}
+
+#img1{
+    background-image: url(./assets/image1.jpg);
+    background-size: cover;
+    background-position: center;
+   
+   
+}
+#img2{
+    background-image: url(./assets/image2.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img3{
+    background-image: url(./assets/image3.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img4{
+    background-image: url(./assets/image4.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img5{
+    background-image: url(./assets/image5.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img6{
+    background-image: url(./assets/image6.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img7{
+    background-image: url(./assets/image7.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img8{
+    background-image: url(./assets/image8.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+#img9{
+    background-image: url(./assets/image9.jpeg);
+    background-size: cover;
+    background-position: center;
+}
