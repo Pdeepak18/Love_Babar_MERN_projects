@@ -13,6 +13,7 @@ a{
     border: 1px solid black;
     padding: 100px;
     padding-top: 10px;
+    
 }
 
 .container{
@@ -73,6 +74,7 @@ hr{
     width: 400px;
     height: 250px;
     border-radius: 8px;
+    background-image: linear-gradient(to right,#B7F8DB , #50A7C2);
 }
 
 @media (max-width:500px) {

@@ -13,6 +13,7 @@ a{
     overflow-y: auto;
     padding: 100px;
     padding-top: 10px;
+    background-image: linear-gradient(to right,#89f7fe , #66a6ff);
 }
 
 .container{
@@ -111,6 +112,8 @@ button{
     border: 1px solid grey;
     border-radius: 6px;
     background-color: aliceblue;
+    color: white;
+    background-image: linear-gradient(to right,#868f96 , #596164);
 
 }
 .archives{
