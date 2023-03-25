@@ -155,7 +155,7 @@ function shufflePassword(arr){
 
 generateBtn.addEventListener("click", () => {
     // none of the checkbox is checked
-    if(checkCount ==0){alert("please check any checkbox"); return}
+    if(checkCount ==0){openModal(); return;}
 
     if(passwordLength <checkCount){
         passwordLength = checkCount
