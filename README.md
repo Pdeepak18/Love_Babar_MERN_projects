@@ -8,3 +8,4 @@
 7. Razorpay-clone : https://deepak-razorpay-clone.netlify.app/
 8. Counter-App : https://pdeepak18.github.io/Love_Babar_MERN_projects/Counter-App/
 9. Modal : https://pdeepak18.github.io/Love_Babar_MERN_projects/Modal/
+10. Password-Generator: https://pdeepak18.github.io/Love_Babar_MERN_projects/Password-generator/
